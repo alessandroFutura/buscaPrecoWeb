@@ -1,0 +1,15 @@
+
+
+.ModalPanel
+{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    transition: all, 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.80);
+}

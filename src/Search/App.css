@@ -1,0 +1,257 @@
+.container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container .panelHeader
+{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+}
+.panelHeader h1 
+{
+  margin: 0;
+  color: #fff;
+  font-size: 60px;
+}
+.panelHeader h2 
+{
+    margin:0px ;
+    color: #ce4201;
+    font-size: 27px;
+}
+.Title01
+{
+  left: 30%;
+  right: 30%;
+  z-index: 10;
+  margin: auto;
+  color: #fff;
+  font-size: 34px;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  background-color: #000;
+  padding: 0px 24px 12px 24px;
+  border-radius: 0px 0px 10px 10px;
+}
+.container .MediaSlider
+{
+  width: 100%;
+  height: 68%;
+  overflow: hidden;
+}
+.Title02
+{
+  left: 30%;
+  right: 30%;
+  bottom: 22%;
+  z-index: 10;
+  margin: auto;
+  color: #fff;
+  font-size: 34px;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  padding: 6px 24px 12px 24px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #000;
+}
+.container .PanelFooter
+{
+  width: 100%;
+  height: 22%;
+  background-color: #000;
+}
+.SearchTitle
+{
+  width: 100%;
+  height: 22%;
+  display: flex;
+  font-size: 22px;
+  color: #ce4201;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+.SearchForm
+{
+  
+  height: 280px;
+  padding: 10px 15px;
+  display: flex;
+  background-color:#000;
+}
+.Image
+{
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #1c1d1f;
+}
+.SearchInfo
+{
+  width: 69%;
+  height: 100%;
+  margin-left: 14px;
+}
+.details01
+{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  
+}
+.Left
+{
+  width: 70%;
+  height: 100%;
+}
+.Left .row1
+{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.GroupInput
+{
+  width: 50%;
+  display: flex;
+  margin: 0px 10px 0px 0px;
+  flex-direction: column;
+}
+.GroupInput label 
+{
+  font-size: 18px;
+  color: #b9b9b9;
+  font-weight: bold;
+  margin-bottom: 6px
+}
+.GroupInput input 
+{
+  height: 50px;
+  outline: none;
+  font-size: 18px;
+  color: #969696;
+  padding: 0px 10px; 
+  border-radius: 8px;
+  border: 2px solid #545364;
+  background-color: #18181a;
+}
+.GroupInput span 
+{
+  height: 50px;
+  outline: none;
+  font-size: 18px;
+  color: #969696;
+  padding: 0px 10px; 
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #545364;
+  background-color: #18181a;
+}
+.Left .row2
+{
+  width: 100%;
+  height: 50%;
+}
+.GroupInput2
+{
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+}
+.GroupInput2 label 
+{
+  font-size: 18px;
+  color: #b9b9b9;
+  font-weight: bold;
+  margin-bottom: 6px
+}
+.GroupInput2 span 
+{
+  height: 50px;
+  outline: none;
+  font-size: 18px;
+  color: #969696;
+  padding: 0px 10px; 
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #545364;
+  background-color: #18181a;
+}
+.Right
+{
+  width: 30%;
+  height: 100%;
+}
+.GroupInput3
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0px 10px 0px 0px;
+  flex-direction: column;
+}
+.GroupInput3 label 
+{
+  font-size: 18px;
+  color: #b9b9b9;
+  font-weight: bold;
+  margin-bottom: 6px
+}
+.GroupInput3 span 
+{
+  height: 74%;
+  outline: none;
+  display: flex;
+  font-size: 18px;
+  color: #969696;
+  padding: 0px 8px 0px 18px; 
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #545364;
+  background-color: #18181a;
+}
+.GroupInput3 span .LabelPrice 
+{
+  font-size: 28px;
+  color: #d3d3d3;
+  font-weight: bold;
+}
+.GroupInput3 span .Price
+{
+  font-size: 44px;
+  color: #d3d3d3;
+  font-weight: bold;
+}
+.details02
+{
+  width: 100%;
+  height: 25%;
+  color:#fff;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.details02 span
+{
+  font-size: 18px;
+  font-weight: bold;
+}
+.details02 small
+{
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
